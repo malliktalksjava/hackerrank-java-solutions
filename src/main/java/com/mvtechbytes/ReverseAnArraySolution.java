@@ -6,7 +6,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class ReverseAnArrayResult {
 
     /*
      * Complete the 'reverseArray' function below.
@@ -46,8 +46,8 @@ public class ReverseAnArraySolution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> res = Result.reverseArray(arr);
-        List<Integer> res2 = Result.reverseArray2(arr);
+        List<Integer> res = ReverseAnArrayResult.reverseArray(arr);
+        List<Integer> res2 = ReverseAnArrayResult.reverseArray2(arr);
 
         System.out.println("res : " + res);
         System.out.println("res2 : " + res2);
